@@ -1,7 +1,8 @@
 body {
   font-family: "Calibri", sans-serif;
-  background: antiquewhite;
+  background: #222;
   position: relative;
+  color: aliceblue;
 }
 
 @media all and (min-width: 600px) {
@@ -12,11 +13,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Century Gothic", sans-serif;
-  color: #126;
+  color: deepskyblue;
 }
 
 a {
-  color: #56a;
+  color: lightskyblue;
   text-decoration: underline;
 }
 
@@ -30,13 +31,13 @@ a {
 
 .score {
   font-weight: bold;
-  color: #c00;
+  color: lightcoral;
 }
 
 .terminal {
   background: black;
   font-family: "Courier New", monospace;
-  color: #0f0;
+  color: #bdf;
   width: 100%;
   height: 300px;
   overflow-x: auto;
